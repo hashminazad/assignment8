@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to top, blue, white);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #ffffffd9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+}
+
+h2 span {
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: green;
+  
+}
+
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+#taskList{
+    align-items: center;
+}
